@@ -33,7 +33,7 @@ app/src/main/java/com/devicelens/app/
 
 Requires Android SDK with platform `android-36` + build-tools `36.0.0`.
 
-![Demo SS](devicelens-screen2.png)
+<img src="devicelens-screen2.png" width="200" />
 
 
 ## Demo (45–60s)
