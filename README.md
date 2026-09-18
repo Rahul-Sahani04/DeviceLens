@@ -33,6 +33,9 @@ app/src/main/java/com/devicelens/app/
 
 Requires Android SDK with platform `android-36` + build-tools `36.0.0`.
 
+![Demo SS](devicelens-screen2.png)
+
+
 ## Demo (45–60s)
 
 1. Open DeviceLens, let the real scan complete
