@@ -109,7 +109,6 @@ For example:
 
 - **“Gyroscope: Available”** means Android exposes a gyroscope sensor to the app.
 - **“Microphone permission: Granted”** means the app has the relevant runtime permission. It does not guarantee that the microphone is physically usable at every moment.
-- **“Call recording: Supported”** should NOT be a hard binary in MVP. Android/OEM/country/carrier restrictions make this difficult to determine reliably from generic app APIs. Use **“Call recording: Not directly exposed”** or a qualified device-level signal rather than a false positive.
 - **“GPS”** should be represented as **Location / GNSS availability**, distinguishing hardware/provider capability from whether location services are currently switched on.
 - **Bluetooth audio** should not be shown as a universal “supported / unsupported” hardware flag. Prefer profile/service availability where observable, otherwise show **Bluetooth LE / Bluetooth adapter available**.
 
@@ -280,17 +279,6 @@ NFC
 NOT AVAILABLE
 
 No NFC system feature was reported by Android on this device.
-```
-
-For inaccessible information:
-
-```text
-CALL RECORDING
-
-NOT DIRECTLY EXPOSED
-
-Android does not provide a universal API that lets DeviceLens
-reliably declare recording support across OEMs and regions.
 ```
 
 ---

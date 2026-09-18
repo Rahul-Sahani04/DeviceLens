@@ -4,11 +4,6 @@ Privacy-first Android diagnostic scanner. Performs a fast local scan and turns p
 
 > “Know exactly what your Android device can do, what state it is in, and what your apps are allowed to access.”
 
-## MVP (per `PRD_DeviceLens.md`)
-
-- Launch → <2s local scan → dashboard → PDF/JSON export via native share sheet
-- 4 states only: Available / Enabled / Restricted / Unavailable / Not exposed
-- Never presents inference as hardware fact (e.g. call recording = Not directly exposed)
 
 ## Stack
 
